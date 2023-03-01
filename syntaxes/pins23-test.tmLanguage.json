@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "PINS23 Test",
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#directives"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "begin": "^--",
+      "end": "$",
+      "name": "comment.line.pins23-test"
+    },
+    "directives": {
+      "patterns": [
+        {
+          "name": "keyword.control.directive.pins23-test",
+          "match": "^!compiler_flags"
+        },
+        {
+          "match": "(--\\w+)\\s(\\w+)",
+          "captures": {
+            "1": {
+              "name": "variable.name.pins23-test"
+            },
+            "2": {
+              "name": "variable.parameter.pins23-test"
+            }
+          }
+        },
+        {
+          "name": "entity.name.tag.pins23-test",
+          "match": "^!(code:|expected:|end)"
+        },
+        {
+          "name": "entity.other.attribute-name.pins23-test",
+          "match": "^!name: (.*)$",
+          "fontStyle": "bold"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.pins23-test"
+}

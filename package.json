@@ -1,0 +1,50 @@
+{
+  "name": "pins23",
+  "displayName": "PINS23",
+  "description": "PINS 2023 Programing Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "pins23",
+        "aliases": [
+          "PINS23",
+          "pins23"
+        ],
+        "extensions": [
+          ".pins23"
+        ],
+        "configuration": "./languages/pins23-language-configuration.json"
+      },
+      {
+        "id": "pins23-test",
+        "aliases": [
+          "PINS23 Test",
+          "pins23 Test"
+        ],
+        "extensions": [
+          ".tst"
+        ],
+        "configuration": "./languages/pins23-test-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "pins23",
+        "scopeName": "source.pins23",
+        "path": "./syntaxes/pins23.tmLanguage.json"
+      },
+      {
+        "language": "pins23-test",
+        "scopeName": "source.pins23-test",
+        "path": "./syntaxes/pins23-test.tmLanguage.json"
+      }
+    ]
+  }
+}
