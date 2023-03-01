@@ -24,3 +24,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Added
 
 - README images
+
+## [0.4.0] - 2023-03-01
+
+### Added
+
+- Extension icon

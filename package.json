@@ -1,10 +1,11 @@
 {
   "name": "pins23",
-  "displayName": "PINS23",
-  "version": "0.3.0",
-  "description": "PINS 2023 Programing Language",
+  "displayName": "PINS 23",
+  "version": "0.4.0",
+  "description": "PINS 2023 Programing Language Syntax highlighting",
   "repository": "https://github.com/primozpadar/pins-23-extension",
   "publisher": "primozpadar",
+  "icon": "assets/PINS.png",
   "engines": {
     "vscode": "^1.75.0"
   },
