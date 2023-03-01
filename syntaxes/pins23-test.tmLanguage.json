@@ -34,7 +34,7 @@
         },
         {
           "name": "entity.name.tag.pins23-test",
-          "match": "^!(code:|expected:|end)"
+          "match": "^!(code:|expected:|failure:|end)"
         },
         {
           "name": "entity.other.attribute-name.pins23-test",

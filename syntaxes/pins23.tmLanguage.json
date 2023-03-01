@@ -77,47 +77,47 @@
     "operators": {
       "patterns": [
         {
-          "name": "keyword.operator.math",
+          "name": "keyword.operator.math.pins23",
           "match": "\\+|-|\\*|/|%"
         },
         {
-          "name": "keyword.operator.comparison",
+          "name": "keyword.operator.comparison.pins23",
           "match": "==|!=|<=|>=|<|>"
         },
         {
-          "name": "keyword.operator.logical",
+          "name": "keyword.operator.logical.pins23",
           "match": "&&|!|\\|\\|"
         },
         {
-          "name": "keyword.operator.key-value",
+          "name": "keyword.operator.key-value.pins23",
           "match": ":"
         },
         {
-          "name": "punctuation.semi",
+          "name": "punctuation.semi.pins23",
           "match": ";"
         },
         {
-          "name": "keyword.operator.access.dot",
+          "name": "keyword.operator.access.dot.pins23",
           "match": "\\."
         },
         {
-          "name": "punctuation.comma",
+          "name": "punctuation.comma.pins23",
           "match": ","
         },
         {
-          "name": "keyword.operator.assignment.equal",
+          "name": "keyword.operator.assignment.equal.pins23",
           "match": "="
         },
         {
-          "name": "punctuation.brackets.round",
+          "name": "punctuation.brackets.round.pins23",
           "match": "\\(|\\)"
         },
         {
-          "name": "punctuation.brackets.square",
+          "name": "punctuation.brackets.square.pins23",
           "match": "\\[|\\]"
         },
         {
-          "name": "punctuation.brackets.curly",
+          "name": "punctuation.brackets.curly.pins23",
           "match": "\\{|\\}"
         }
       ]
