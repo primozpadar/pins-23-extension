@@ -18,3 +18,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 - Missing suffix for pins23 grammar file
 - Missing `!failure:` for test files
+
+## [0.3.0] - 2023-03-01
+
+### Added
+
+- README images
